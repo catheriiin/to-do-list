@@ -43,7 +43,7 @@ render() {
         <div>
             <form onSubmit={this.onFormSubmit}>
             <div className="center">
-            <input type="text" placeholder="What do you want to buy?"
+            <input type="text" placeholder="Type a thing to do..."
             onChange={(e) => {this.onChangeEvent(e.target.value)}} value={this.state.userInput}/>
             </div>
             <div className="center">
